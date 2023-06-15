@@ -12,3 +12,7 @@ variable "instance_name" {
 variable "createby" {
   default = "masoudkaveh"
 }
+variable web-servers {
+    type = list(string)
+    default = ["web1" , "web2" , "web3" , "web4","web5"]
+}
