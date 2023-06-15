@@ -16,6 +16,6 @@ variable "web-servers" {
   type    = list(string)
   default = ["web1", "web2", "web3", "web4", "web5"]
 }
-variable key_name {
+variable "key_name" {
 }
 
