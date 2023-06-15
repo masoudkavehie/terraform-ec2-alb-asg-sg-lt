@@ -5,5 +5,7 @@ resource "aws_instance" "webserver" {
     Created_By = var.createby
     Name       = "server ${var.web-servers[count.index]}"
   }
-  count = 5
+  count    = 5
+  key_name = var.key_name
 }
+
