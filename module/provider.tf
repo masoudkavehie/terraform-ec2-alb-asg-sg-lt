@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-  bucket = "masoud-backend"
-  key    = "build/airflow/terraform.tfstate"
-  region = "us-east-1"
+    bucket = "masoud-backend"
+    key    = "build/airflow/terraform.tfstate"
+    region = "us-east-1"
   }
   required_providers {
     aws = {

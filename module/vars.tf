@@ -19,3 +19,15 @@ variable "bucket" {
 variable "bucket_name" {
   default = "masoud"
 }
+variable "security_group" {
+  default = "nginx-sg"
+}
+variable "port" {
+  default = 80
+}
+variable "protocol" {
+  type        = string
+  default     = "tcp"
+  description = "description"
+}
+
