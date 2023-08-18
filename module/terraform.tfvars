@@ -1,4 +1,4 @@
-ami_id        = "ami-06b09bfacae1453cb"
+ami_id        = "ami-054d3ca1f0ebdefe4"
 instance_type = "t2.micro"
 key_name      = "terraform"
 instance_name = "masoud-ec2"

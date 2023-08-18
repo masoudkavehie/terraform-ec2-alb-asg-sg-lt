@@ -25,9 +25,24 @@ variable "security_group" {
 variable "port" {
   default = 80
 }
+variable "port1" {
+  default = 22
+}
 variable "protocol" {
   type        = string
   default     = "tcp"
   description = "description"
 }
-
+variable "protocol1" {
+  type        = string
+  default     = "ssh"
+  description = "description"
+}
+variable "subnet1" {
+  type    = string
+  default = "subnet-069959160d2d9de07"
+}
+variable "subnet2" {
+  type    = string
+  default = "subnet-0b0b40a268171cece"
+}
